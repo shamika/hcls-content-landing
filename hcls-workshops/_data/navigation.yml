@@ -1,5 +1,7 @@
 - title: Home
   url: /
+- title: Latest 
+  url : /latest/
 - title: Categories
   url: /categories/
 # - title: Solutions
@@ -8,6 +10,8 @@
 #  url: /
 - title: Search
   url: /search/ 
-- title: About
-  url: /  
+# - title: About
+#   url: /about
+- title: Analytics
+  url: /analytics
  
