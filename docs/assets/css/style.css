@@ -416,14 +416,17 @@ input::-webkit-search-results-decoration {
     left: 50%;
     background-color: #fff;
   }
+  .sidebar-right {
+    display: flex;
+    height: 100%;
+    margin-left: calc(var(--pagewidth-desktop) + 18rem / 2);
+  }
 }
 @media (min-width: 1441px) {
   .sidebar-left {
     width: calc((100vw - 54rem) / 2);
   }
   .sidebar-right {
-    display: flex;
-    height: 100%;
     width: calc((100vw - 54rem) / 2);
     margin-left: calc(54rem + (100vw - 54rem) / 2);
   }
@@ -847,6 +850,7 @@ input::-webkit-search-results-decoration {
 .toc {
   position: fixed;
   top: 6rem;
+  display: none;
 }
 
 .toc-header {
@@ -906,6 +910,11 @@ input::-webkit-search-results-decoration {
   font-weight: 950;
 }
 
+@media (min-width: 1441px) {
+  .toc {
+    display: block;
+  }
+}
 #post {
   max-width: 54rem;
   margin: auto;

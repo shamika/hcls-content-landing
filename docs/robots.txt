@@ -1,1 +1,1 @@
-Sitemap: http://localhost:8080/hcls-content-landing.github.io/sitemap.xml
+Sitemap: https://aws-samples.github.io/aws-healthcare-lifescience-ai-ml-sample-notebooks/sitemap.xml
