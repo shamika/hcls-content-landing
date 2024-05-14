@@ -335,7 +335,7 @@ function searchRelated(pages){
         if (post.category !== '') category = post.category;
 
         if (post.thumbnail === ''){
-            post.thumbnail = "/assets/img/thumbnail/empty.jpg";
+            post.thumbnail = "assets/img/thumbnail/empty.jpg";
         }
 
         let contents = document.createElement("li");
